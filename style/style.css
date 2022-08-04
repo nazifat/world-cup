@@ -108,8 +108,11 @@ grid-gap: 2%;
 
 }
 .blog{
-    border: 1px solid gray;
-    margin-right: 2px;
+    /* border: 1px solid gray; */
+   
+    box-shadow: lightgrey 1px 1px 40px;
+    border: lightgray 1px solid;
+    border-radius: 10px;
 
 }
 
@@ -117,6 +120,25 @@ grid-gap: 2%;
     padding: 10px 0 10px 10px;
 
     
+}
+
+.info a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 5px;
+}
+.info h3{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+.icon-info{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin: 5% ;
 }
 
 
